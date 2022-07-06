@@ -156,3 +156,38 @@ p{
     background-color: #FFF4D6;
 }
 
+
+.subsciber{
+    text-align: center;
+    background-color: #FFF4D6;
+    margin: 0 20%;
+    padding: 5% 0;
+}
+.subsciber input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.subsciber input[type="text"]{
+   background-color: rgb(204, 200, 200);
+   width: 300px; 
+   height: 50px;
+   border: none;
+   outline: none;
+   padding: 0 25px;
+   border-radius: 10px 0 0 10px;
+
+}
+.subsciber input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 10px 10px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color:#FF5959 ;
+    color: #FFF;
+}
