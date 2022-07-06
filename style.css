@@ -8,7 +8,7 @@ body{
     
 }
 .flexible-body{
-    margin: 5% 5% 0 5%;
+    margin: 7% 5% 0 5%;
 }
 h2{
     font-family: 'Inter';
@@ -48,7 +48,7 @@ p{
 }
 
 
-/*Banner Section CSS */
+/*Banner Section CSS start */
 
 #banner-section{
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0.24) 100%), url(images/donation5.jpg);
@@ -60,7 +60,11 @@ p{
     text-align: center;
     padding: 150px 0;
 }
-.donate-info p{
+/*Banner Section CSS end */
+
+
+/*Donate Section CSS start */
+.donate-info p ,.donate-panl-info p{
     color: #707070;
 }
 .donate-catagory{
@@ -91,7 +95,7 @@ p{
     color: #FF5959;
 
 }
-.donate-others{
+.donate-others ,.donate-panl-info {
     text-align: center;
 }
 .donate-others input[type=text] { 
@@ -105,3 +109,50 @@ p{
 .donate-others input[type="text"]::placeholder {        
     text-align: center;
 }
+/*Donate Section CSS end  */
+
+
+/*Donate plan Section CSS start  */
+
+.donate-plan-card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.donate-plan-card-child{
+    margin: 10px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px; 
+    padding: 50px 10px 20px 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+
+}
+
+.donate-plan-card-child h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    padding: 20px 0;
+    
+
+}
+.donate-plan-card-child p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    text-align: left;
+}
+#Danate-bg-color2{
+    background-color: #FFEEEE;
+}
+#Danate-bg-color3{
+    background-color: #FFF4D6;
+}
+
