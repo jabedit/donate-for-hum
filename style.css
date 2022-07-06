@@ -120,6 +120,7 @@ p{
     
 }
 .donate-plan-card-child{
+    
     margin: 10px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px; 
@@ -156,6 +157,23 @@ p{
     background-color: #FFF4D6;
 }
 
+.effected-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.effected-gallery-child img{
+    width: 245px;
+    height: 245px;
+    margin:0 15px 15px 0;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+.effected-gallery-child img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+  }
+
 
 .subsciber{
     text-align: center;
@@ -190,4 +208,16 @@ p{
     outline: none;
     background-color:#FF5959 ;
     color: #FFF;
+}
+footer {
+    background-color: #1E1E1E;
+    padding: 5% 0;
+}
+footer p {
+    
+    margin: 0;
+    padding: 0;
+}
+.orange-taxt{
+    color:#FF5959 ;
 }
