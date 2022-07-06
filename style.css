@@ -46,7 +46,16 @@ p{
     border-radius: 5px;
    
 }
-
+.underline-style{
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 1%;
+    width: 200px;
+    height: 2px;
+    background-color: #ff59596f;
+    
+    
+}
 
 /*Banner Section CSS start */
 
@@ -90,11 +99,14 @@ p{
     text-align: center;
     color: #707070;
 }
-.donate-amount:hover{
-    background: #fce5e5;
-    color: #FF5959;
-
+.donate-amount-active{
+    background-color: #fce5e5;
+   
+    border: 1px solid  #FF5959;
 }
+.donate-amount-active h4{
+    color: #FF5959;
+} 
 .donate-others ,.donate-panl-info {
     text-align: center;
 }
@@ -117,17 +129,14 @@ p{
 .donate-plan-card{
     display: flex;
     justify-content: space-around;
-    
 }
 .donate-plan-card-child{
-    
     margin: 10px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px; 
     padding: 50px 10px 20px 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     
-
 }
 
 .donate-plan-card-child h5{
@@ -157,6 +166,7 @@ p{
     background-color: #FFF4D6;
 }
 
+/*Effected Section section Start*/
 .effected-gallery{
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +174,7 @@ p{
 .effected-gallery-child img{
     width: 245px;
     height: 245px;
-    margin:0 15px 15px 0;
+    margin:0 1px 15px 0;
     border-radius: 5px;
     transition: transform .2s;
 }
@@ -174,6 +184,7 @@ p{
     transform: scale(1.5); 
   }
 
+  /*Subsciber Section CSS Start*/
 
 .subsciber{
     text-align: center;
@@ -209,15 +220,17 @@ p{
     background-color:#FF5959 ;
     color: #FFF;
 }
+ /*Footer Section CSS Start*/
 footer {
+    
+    margin-top: 7%;
     background-color: #1E1E1E;
     padding: 5% 0;
 }
 footer p {
-    
     margin: 0;
     padding: 0;
 }
 .orange-taxt{
-    color:#FF5959 ;
+    color:#FF5959;
 }
